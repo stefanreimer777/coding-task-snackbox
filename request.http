@@ -1,0 +1,20 @@
+### List all snacks
+GET http://localhost:3000/snacks
+
+
+### Create a new snack
+POST http://localhost:3000/snacks
+content-type: application/json
+
+{
+    "brand": "Mejitos",
+    "price": 2
+}
+
+### Find a particular snack with a given ID
+GET http://localhost:3000/snacks/799
+
+
+### Delete a snack with a given ID
+DELETE http://localhost:3000/snacks/799
+content-type: application/json
